@@ -1,0 +1,13 @@
+[
+    {
+        "type": "container",
+        "title": "Example Container",
+        "id":"input",
+        "mandatory":1,
+        "batch":1,
+        "file_filter": "c_files[1,*]<'', [], '.*'>",
+        "in_filter":["mri_brain_data"],
+        "out_filter":[],
+        "anchor":1
+    }
+]
